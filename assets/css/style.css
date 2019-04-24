@@ -1,1 +1,22 @@
 /*Homework 2 Bootstrap CSS Assignment 1*/
+
+/*Header*/
+header {
+    background-color: #ffffff;
+    overflow: hidden;
+    border-bottom: 2px solid #cccccc;
+    text-decoration: none;
+    width:100%;
+}
+  
+/* Body */
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 150%;
+    color: #000000;
+    /* background: #efeee7; /* main background ATM */
+    background-image: url("../../assets/images/white-waves.png"); 
+    background-repeat: repeat;
+}
+
