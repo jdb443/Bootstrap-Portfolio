@@ -14,9 +14,92 @@ body {
     padding: 0;
     margin: 0;
     line-height: 150%;
-    color: #000000;
     /* background: #efeee7; /* main background ATM */
     background-image: url("../../assets/images/white-waves.png"); 
     background-repeat: repeat;
 }
 
+.container {
+    background-color: #ffffff;
+    min-width: 100%;
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.header {
+    height: 70px;
+}
+
+.row {
+    margin:0;
+}
+
+.navbar-brand {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    padding: 25px;
+    height: 70px;
+    line-height: 15px;
+    font-size: 30px;
+    margin: 0;
+    background-color: #4aaaa5;
+    color: #ffffff !important;
+}
+
+.nav-item, .nav-item:active, .nav-item:visited {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc !important;
+}
+
+.nav-item:hover {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff !important;
+    background-color: #4aaaa5;
+}
+
+.nav-link, .nav-link:active, .nav-link:visited {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc !important;
+}
+
+.nav-link:hover {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff !important;
+    background-color: #4aaaa5;
+}
+
+article {
+    margin: 40px 0 40px 0;
+    background-color: #ffffff;
+    border: 1px solid #777777 !important;
+    padding: 30px;
+}
+
+h2 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #4aaaa5;
+    text-align: left;
+    /* padding-bottom: 30px; */
+    border-bottom: 2px solid #cccccc;
+  }
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+footer {
+    background-color: #666666;
+    /* text-align: center; */
+    border-top: solid 4px #4aaaa5;
+    clear: both;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* margin: 40px; */
+    width: 100%;
+    position: fixed;
+    bottom: 0; 
+}
