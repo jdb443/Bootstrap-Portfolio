@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    background-color: #ffffff !important;
+    /* background-color: #ffffff !important; */
     min-width: 100%;
     padding: 0;
 }
@@ -33,8 +33,12 @@ body {
     height: 70px;
 }
 
-.row {
+.hrow {
     margin:0;
+    display: inline;
+}
+.row{
+    margin: 0;
 }
 
 .navbar-brand {
@@ -123,6 +127,27 @@ p {
     font-family: "Georgia", Times, Times New Roman, serif;
     font-weight: bold;
 }
+
+/* Contact Page Button */
+/* .btn-primary {
+    float: left;
+    position: absolute;
+    padding: 7px 20px;
+    color: #ffffff !important;
+    border-radius: 5px;
+    left: 0px;
+    bottom: -40px;
+    overflow: hidden;
+    background: #4aaaa5 !important;
+    font-size: 18px;
+  }
+  
+  /* Contact Page Button Hover
+.btn-primary:hover {
+    color: #4aaaa5 !important;
+    background: #dddddd !important;
+    font-weight: bold;
+  } */
 
 footer {
     background-color: #666666;
