@@ -90,7 +90,7 @@ p {
     color: #777777;
 }
 
-.bannerTag {
+.bannerTag, .bannerTag:visited, .bannerTag:active {
     position: absolute;
     color: #ffffff !important;
     z-index: 2;
