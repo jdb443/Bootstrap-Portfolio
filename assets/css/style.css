@@ -2,7 +2,7 @@
 
 /*Header*/
 header {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     overflow: hidden;
     border-bottom: 2px solid #cccccc;
     text-decoration: none;
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     min-width: 100%;
     padding: 0;
 }
@@ -48,6 +48,10 @@ body {
     color: #ffffff !important;
 }
 
+.navbar-nocolor {
+    background-color: #ffffff !important;
+}
+
 .nav-item, .nav-item:active, .nav-item:visited {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc !important;
@@ -73,7 +77,7 @@ body {
 article {
     margin: 40px 0 40px 0;
     background-color: #ffffff;
-    border: 1px solid #777777 !important;
+    border: 1px solid #cccccc !important;
     padding: 30px;
 }
 
@@ -89,6 +93,11 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
+
+.font20{
+    font-size: 20px;
+}
+
 
 .bannerTag, .bannerTag:visited, .bannerTag:active {
     position: absolute;
@@ -114,13 +123,6 @@ p {
     font-family: "Georgia", Times, Times New Roman, serif;
     font-weight: bold;
 }
-
-/* .my-banner {
-    bottom: 10px;
-    font-family: "Georgia", Times, Times New Roman, serif;
-    color: #ffffff !important;
-    background-color: #4aaaa5;
-} */
 
 footer {
     background-color: #666666;
