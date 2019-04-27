@@ -90,6 +90,38 @@ p {
     color: #777777;
 }
 
+.bannerTag {
+    position: absolute;
+    color: #ffffff !important;
+    z-index: 2;
+    background: #4aaaa5;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+.bannerTag:hover {
+    position: absolute;
+    color: #4aaaa5 !important;
+    z-index: 2;
+    background: #cccccc;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+/* .my-banner {
+    bottom: 10px;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    color: #ffffff !important;
+    background-color: #4aaaa5;
+} */
+
 footer {
     background-color: #666666;
     /* text-align: center; */
