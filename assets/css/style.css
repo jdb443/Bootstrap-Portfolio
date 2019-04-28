@@ -15,7 +15,7 @@ body {
     margin: 0;
     line-height: 150%;
     /* background: #efeee7; /* main background ATM */
-    background-image: url("../../assets/images/white-waves.png"); 
+    background-image: url("../../assets/images/white-waves.png") !important; 
     background-repeat: repeat;
 }
 
